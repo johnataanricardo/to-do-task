@@ -1,0 +1,6 @@
+.toolbar {
+  margin-left: 10px;
+  font-size: 35px;
+  font-weight: bold;
+  color: var(--primarycolor);
+}

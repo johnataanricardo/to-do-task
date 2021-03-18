@@ -1,0 +1,15 @@
+:root {
+  --primarycolor: #3FB984;
+  --secondarycolor: #C1C1C1;
+  --backgroundcolor: #303030;
+  --errorcolor: #BB3650;
+}
+
+.body {
+  padding: 0% 30%;
+}
+
+.error--text div, .error--text label, .error--text i {
+  color: var(--errorcolor) !important;
+  caret-color: var(--errorcolor) !important;
+}
