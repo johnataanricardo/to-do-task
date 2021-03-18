@@ -1,6 +1,6 @@
 <template>
-  <v-row justify="center" class="body">
-    <v-layout wrap>
+  <v-layout wrap>
+    <v-row justify="center" class="body">
       <!-- Add Task -->
       <v-btn block large elevation="2" color="primary" style="margin-bottom: 30px" @click="addTask">
         <v-icon left large>
@@ -28,8 +28,8 @@
           </tbody>
         </template>
       </v-data-table>
-    </v-layout>
-  </v-row>
+    </v-row>
+  </v-layout>
 </template>
 
 <script>
@@ -42,7 +42,7 @@ export default {
       headers: [
         { text: 'Task Description', value: 'description', sortable: false, width: '60%' },
         { text: 'Status', value: 'status', width: '20%' },
-        { text: 'actions', value: 'id', align: 'center', sortable: false, width: '20%' },
+        { text: 'Actions', value: 'id', align: 'center', sortable: false, width: '20%' },
       ]      
     }
   },
