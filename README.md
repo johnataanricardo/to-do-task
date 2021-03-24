@@ -1,6 +1,6 @@
 # To do Task Application
 
-## This is an application that allows the user create tasks for his daily, all the tasks are saving in the Local Storage of the browser.
+This is an application that allows the user create tasks for his daily, all the tasks are saving in the Local Storage of the browser.
 
 ## Technologies
 ```
